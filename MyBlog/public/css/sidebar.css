@@ -1,0 +1,33 @@
+.sidebar{
+    flex: 3;
+    padding:0 20px;
+}
+.sidebar .area{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    
+}
+.sidebar h3{
+    width: 100%;
+    background-color: plum;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', sans-serif;
+    justify-content: center;
+    display: flex;
+    position: relative;
+
+} 
+.sidebar h3::after{
+    content: '';
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    position:absolute;
+    bottom: 0;
+}
+.sidebar img{
+    padding: 5px;
+    border-radius: 15px;
+    
+}
